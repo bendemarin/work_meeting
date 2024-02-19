@@ -1,15 +1,46 @@
 body{
     background-color: #E0E0E0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #660000;
 }
-#main{
-    
+div{
+    width: 700px;
+    margin: 0 auto;
+    padding: 12px;
 }
-#main2{
-    
+.lang{
+    width: 50px;
+    height: 30px;
 }
-#zaszlo{
-    
+nav a{
+    padding: 8px;
 }
-#szamozas{
-    
+nav {
+    margin: auto 240px;
+}
+.jel1{
+    float: left;
+    display: flex;
+    width: 50px;
+    height: 125px;
+}
+.jel2{
+    float: right;
+    display: flex;
+    width: 50px;
+    height: 125px;
+}
+h1{
+    text-align: center;
+    line-height: 50%;
+}
+.underline{
+    text-decoration: underline;
+}
+
+ul li{
+    list-style: none;
+}
+.right{
+    text-align: right;
 }
